@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login'); // this shows the login page immediately, original is 'welcome'
 });
 
 Route::get('/dashboard', function () {
