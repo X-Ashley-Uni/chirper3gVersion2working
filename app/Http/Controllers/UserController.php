@@ -17,7 +17,7 @@ class UserController extends Controller
             "age"=>30,
             "email"=>"primus.reyes@gmail.com"
              );
-            return view('user', ['data' => $data]); 
+            return view('user', $data);
         }
 
 
